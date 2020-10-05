@@ -15,8 +15,8 @@ KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计，可以让普通电脑主�
 - /  
 KiCAD Project  
 KiCAD 工程
-  - /doc/
-  documents and images
+  - /doc/  
+  documents and images  
   说明文档和配图
   - /Model/  
   Model and baffle designing file  
