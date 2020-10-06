@@ -80,6 +80,6 @@ Verified gerber project
 # Thanks To
 
 - @Wangrb (Original Adapter Card Design)
-- @AlphaArea (Main Contributer)
-- @MistyMoonR (3D Model)
-- @Karminski (Photo)
+- [@AlphaArea (Main Contributer)](https://github.com/alphaarea)
+- [@MistyMoonR (3D Model)](https://github.com/MistyMoonR)  
+- [@Karminski (Photo)](https://github.com/karminski)
