@@ -1,6 +1,6 @@
 ## 3D model description
 
-### version ：0.0.1
+### version ：0.0.2
 
 
 -----------------------
@@ -11,12 +11,15 @@
 -----------------------
 ### 
 
-3D_model 是完整STEP图纸
+`3D_model.step`: 完整图纸
 
-FLR挡板 V0.1 bate：合适钣金件（未经过测试）
 
+`FLR挡板 V0.1 bate.step`：合适钣金件（未经过测试）[Show](https://github.com/KCORES/KCORES-FlexibleLOM-Adapter/blob/main/Model/V0.1%20bate.stl)
 
 English documents will be added later...
 
-![IMG](./img/V0.1.jpg)
+-----------------------
+
+BOOM!
+![GIF](./img/boom.gif)
  
