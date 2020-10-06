@@ -20,6 +20,6 @@ English documents will be added later...
 
 -----------------------
 
-BOOM!
+__BLOWOUT！__
 ![GIF](./img/boom.gif)
  
