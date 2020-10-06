@@ -1,6 +1,7 @@
 # KCORES-FlexibleLOM-Adapter
 
-![FlexibleLOM-Adapter-Card-Top-View](./Photo/FlexibleLOM-Adapter-Card-Top-View.png)
+![FlexibleLOM-Adapter-Card-Top-View](./Photo/FlexibleLOM-Adapter-Card-Top-View.png)  
+![3D-Model.png](./Photo/3D-Model.png)  
 
 KCORES FlexibleLOM to PCIe x8 adapter and baffle model. The FLR series network cards can be used on normal motherboards PCIe slots, including common Gigabit, 10G, and 40G network cards. Due to size limitations, only full-height baffle design is available.  
 
@@ -12,45 +13,45 @@ KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计，可以让普通电脑主�
 - Impedance matching by Polar SI9000  
 使用 Polar SI9000 计算阻抗
 
-- Small size, Less than 10x10cm  
+- Size less than 10x10cm  
 小尺寸，不超过 10x10cm
 
 
-# Tested Card
+# Tested FLR List
 
-| FlexibleLOM  | NIC Model               | Results |
-| ------------ | ----------------------- | :-----: |
-| 331FLR       | BCM5719                 | ❌      |
-| 366FLR       | intel i350              | ✔      |
-| 544FLR-QSFP  | Mellanox ConnectX-3     | ✔      |
-| 544+FLR-QSFP | Mellanox ConnectX-3 Pro | ✔      |
-| 561FLR-T     | intel X540              | ✔      |
+| FlexibleLOM  | NIC Model               | Connectors        | Results |
+| ------------ | ----------------------- | ----------------- | :-----: |
+| 331FLR       | BCM5719                 | Quad RJ45 GbE     | ❌     |
+| 366FLR       | intel i350              | Quad RJ45 GbE     | ✔      |
+| CX3 ALOM     | Mellanox ConnectX-3     | Single SFP+ 10GbE | ✔      |
+| 544FLR-QSFP  | Mellanox ConnectX-3     | Dual QSFP+ 40GbE  | ✔      |
+| 544+FLR-QSFP | Mellanox ConnectX-3 Pro | Dual QSFP+ 40GbE  | ✔      |
+| 561FLR-T     | intel X540              | Dual RJ45 10GbE   | ✔      |
 
-# Photos & 3D Model
+## Worth Trying
 
-![FlexibleLOM-Adapter-Card-Top-View.png](./Photo/FlexibleLOM-Adapter-Card-Top-View.png)
-![FlexibleLOM-Adapter-CardTop-View.png](./Photo/FlexibleLOM-Adapter-CardTop-View.png)
-![FlexibleLOM-Card-With-Adapter-Card-in-Machine.png](./Photo/FlexibleLOM-Card-With-Adapter-Card-in-Machine.png)
-![FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png](./Photo/FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png)
-![3D-Model.png](./Photo/3D-Model.png)
-![3D-Model-Parts.png](./Photo/3D-Model-Parts.png)
-
+| FlexibleLOM  | NIC Model               | Connectors        |
+| ------------ | ----------------------- | ----------------- |
+| 530FLR-SFP+  | BCM57810S               | Dual SFP+ 10GbE   |
+| 560FLR-SFP+  | intel 82599             | Dual SFP+ 10GbE   |
 
 # Directory
 
 - /  
 KiCAD Project  
 KiCAD 工程
-  - /doc/  
-  documents and images  
-  说明文档和配图
-  - /Model/  
-  Model and baffle designing file  
-  模型和挡板设计文件
-  - /gerber/  
+  - /Doc/  
+  Documents  
+  详细说明文档
+  - /Gerber/  
   The current version of the gerber file  
   当前版本的 gerber 生产文件
-
+  - /Model/  
+  Model and baffle designing file  
+  3D 模型和挡板设计文件
+  - /Photo/  
+  Photos  
+  照片
 
 # Repo Timeline
 
@@ -67,10 +68,18 @@ KiCAD 工程文件
 Verified gerber project  
 经过验证的 gerber 文件
 
+# Photos & 3D Model
+
+![FlexibleLOM-Adapter-Card-Top-View.png](./Photo/FlexibleLOM-Adapter-Card-Top-View.png)
+![FlexibleLOM-Adapter-CardTop-View.png](./Photo/FlexibleLOM-Adapter-CardTop-View.png)
+![FlexibleLOM-Card-With-Adapter-Card-in-Machine.png](./Photo/FlexibleLOM-Card-With-Adapter-Card-in-Machine.png)
+![FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png](./Photo/FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png)
+![3D-Model.png](./Photo/3D-Model.png)
+![3D-Model-Parts.png](./Photo/3D-Model-Parts.png)
 
 # Thanks To
 
-- @alphaarea (Main Contributer)
-- @MistyMoonR (3D Model)
 - @Wangrb (Original Adapter Card Design)
+- @AlphaArea (Main Contributer)
+- @MistyMoonR (3D Model)
 - @Karminski (Photo)
