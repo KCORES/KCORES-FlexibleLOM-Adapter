@@ -18,5 +18,5 @@ FLR挡板 V0.1 bate：合适钣金件（未经过测试）
 
 English documents will be added later...
 
-![IMG](/3D_model/img/V0.1.jpg)
+![IMG](./img/V0.1.jpg)
  
