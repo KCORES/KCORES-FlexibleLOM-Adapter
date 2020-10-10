@@ -16,6 +16,9 @@ KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计，可以让普通电脑主�
 - Size less than 10x10cm  
 小尺寸，不超过 10x10cm
 
+[KCORES 网站](http://kcores.com/)
+
+HomeLab 交流 QQ 群： 826702309
 
 # Tested FLR List
 
