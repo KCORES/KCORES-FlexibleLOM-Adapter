@@ -24,9 +24,9 @@
 
 -----------------------
 V1.0 完整方案渲染图   
-![v1.3.png](./Model/img/v1.3.png)       
+![v1.3.png](./img/v1.3.png)       
 挡板V2.0    
-![.png](./Model/img/BracketV2.png)
+![.png](./img/BracketV2.png)
 
 
 -----------------------
