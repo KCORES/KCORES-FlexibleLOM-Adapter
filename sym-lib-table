@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name FLR2PCIe)(type Legacy)(uri ${KIPRJMOD}/KCORES-FlexibleLOM-Adapter.lib)(options "")(descr ""))
+)

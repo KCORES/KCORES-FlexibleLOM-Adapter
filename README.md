@@ -1,7 +1,6 @@
 # KCORES-FlexibleLOM-Adapter
 
 ![FlexibleLOM-Adapter-Card-Top-View](./Photo/FlexibleLOM-Adapter-Card-Top-View.png)  
-![3D-Model.png](./Photo/3D-Model.png)  
 
 KCORES FlexibleLOM to PCIe x8 adapter and baffle model. The FLR series network cards can be used on normal motherboards PCIe slots, including common Gigabit, 10G, and 40G network cards. Due to size limitations, only full-height baffle design is available.  
 
@@ -16,6 +15,9 @@ KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计，可以让普通电脑主�
 - Size less than 10x10cm  
 小尺寸，不超过 10x10cm
 
+[KCORES 网站](http://kcores.com/)
+
+HomeLab 交流 QQ 群： 826702309
 
 # Tested FLR List
 
@@ -74,8 +76,6 @@ Verified gerber project
 ![FlexibleLOM-Adapter-CardTop-View.png](./Photo/FlexibleLOM-Adapter-CardTop-View.png)
 ![FlexibleLOM-Card-With-Adapter-Card-in-Machine.png](./Photo/FlexibleLOM-Card-With-Adapter-Card-in-Machine.png)
 ![FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png](./Photo/FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png)
-![3D-Model.png](./Photo/3D-Model.png)
-![3D-Model-Parts.png](./Photo/3D-Model-Parts.png)
 
 # Thanks To
 
