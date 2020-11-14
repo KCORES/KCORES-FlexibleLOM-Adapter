@@ -59,7 +59,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 1600 2500 1500
 Connection ~ 2500 1500
-NoConn ~ 2250 1400
 NoConn ~ 1750 1800
 NoConn ~ 1750 1900
 NoConn ~ 2250 1800
@@ -71,7 +70,6 @@ Text Label 2250 1700 0    50   ~ 0
 GND
 Text Label 2250 2600 0    50   ~ 0
 GND
-NoConn ~ 1750 6200
 NoConn ~ 1750 4500
 NoConn ~ 1750 3100
 Text Label 2250 3700 0    50   ~ 0
@@ -696,8 +694,6 @@ Wire Wire Line
 Connection ~ 7000 1800
 Wire Wire Line
 	7000 1800 7000 1900
-NoConn ~ 6250 2300
-NoConn ~ 6250 2400
 Wire Wire Line
 	6250 1400 7000 1400
 $Comp
@@ -735,4 +731,25 @@ F 3 "~" H 9500 2050 50  0001 C CNN
 $EndComp
 NoConn ~ 9500 1650
 NoConn ~ 9500 2150
+$Comp
+L power:+3V3 #PWR0110
+U 1 1 5FAFCD0D
+P 6650 2300
+F 0 "#PWR0110" H 6650 2150 50  0001 C CNN
+F 1 "+3V3" H 6665 2473 50  0000 C CNN
+F 2 "" H 6650 2300 50  0001 C CNN
+F 3 "" H 6650 2300 50  0001 C CNN
+	1    6650 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2300 6250 2300
+Wire Wire Line
+	6250 2400 6650 2400
+Wire Wire Line
+	6650 2400 6650 2300
+Connection ~ 6650 2300
+Text Label 1750 6200 2    50   ~ 0
+GND
+NoConn ~ 2250 1400
 $EndSCHEMATC

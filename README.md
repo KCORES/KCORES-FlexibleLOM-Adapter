@@ -19,18 +19,22 @@ KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计，可以让普通电脑主�
 
 **HomeLab 交流 QQ 群: 826702309**
 
-# Tested FLR List
+# Compatibility
 
-| FlexibleLOM  | NIC Model               | Connectors        | Results |
-| ------------ | ----------------------- | ----------------- | :-----: |
-| 331FLR       | BCM5719                 | Quad RJ45 GbE     | ❌     |
-| 366FLR       | intel i350              | Quad RJ45 GbE     | ✔      |
-| CX3 ALOM     | Mellanox ConnectX-3     | Single SFP+ 10GbE | ✔      |
-| 530FLR-SFP+  | BCM57810S               | Dual SFP+ 10GbE   | ❌     |
-| 544FLR-QSFP  | Mellanox ConnectX-3     | Dual QSFP+ 40GbE  | ✔      |
-| 544+FLR-QSFP | Mellanox ConnectX-3 Pro | Dual QSFP+ 40GbE  | ✔      |
-| 560FLR-SFP+  | intel 82599             | Dual SFP+ 10GbE   | ✔      |
-| 561FLR-T     | intel X540              | Dual RJ45 10GbE   | ✔      |
+- ✔ Recommend 推荐
+- 🟡 Compatible 兼容
+- ❌ Fail 不兼容
+
+| FlexibleLOM  | NIC Model               | Connectors        | [v1.0](https://github.com/KCORES/KCORES-FlexibleLOM-Adapter/releases/tag/v1.0) |   v1.1 |
+| ------------ | ----------------------- | ----------------- | :----: | :----: |
+| 331FLR       | Broadcom BCM5719        | Quad RJ45 GbE     | ❌     | ✔     |
+| 366FLR       | intel i350              | Quad RJ45 GbE     | ✔      | ✔     |
+| CX3 ALOM     | Mellanox ConnectX-3     | Single SFP+ 10GbE | ✔      | ✔     |
+| 530FLR-SFP+  | Broadcom BCM57810S      | Dual SFP+ 10GbE   | ❌     | ✔     |
+| 544FLR-QSFP  | Mellanox ConnectX-3     | Dual QSFP+ 40GbE  | ✔      | ✔     |
+| 544+FLR-QSFP | Mellanox ConnectX-3 Pro | Dual QSFP+ 40GbE  | ✔      | ✔     |
+| 560FLR-SFP+  | intel 82599             | Dual SFP+ 10GbE   | ✔      | ✔     |
+| 561FLR-T     | intel X540              | Dual RJ45 10GbE   | ✔      | ✔     |
 
 - **Note:**  
 Some models of 544FLR-QSFP only support 10GbE and QDR. Please check
