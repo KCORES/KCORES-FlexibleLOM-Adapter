@@ -1,6 +1,6 @@
 # KCORES-FlexibleLOM-Adapter
 
-![FlexibleLOM-Adapter-Card-Top-View](./Photo/FlexibleLOM-Adapter-Card-Top-View.png)  
+![FlexibleLOM-Adapter-Card-Top-View](Documents/Pictures/Photos/FlexibleLOM-Adapter-Card-Top-View.png)  
 
 KCORES FlexibleLOM to PCIe x8 adapter and baffle model. The FLR series network cards can be used on normal motherboards PCIe slots, including common Gigabit, 10G, and 40G network cards. Due to size limitations, only full-height baffle design is available.  
 
@@ -15,9 +15,9 @@ KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计，可以让普通电脑主�
 - Size less than 10x10cm  
 小尺寸，不超过 10x10cm
 
-[KCORES 网站](http://kcores.com/)
+**[KCORES 官方网站](http://kcores.com/)**
 
-HomeLab 交流 QQ 群： 826702309
+**HomeLab 交流 QQ 群: 826702309**
 
 # Tested FLR List
 
@@ -26,56 +26,46 @@ HomeLab 交流 QQ 群： 826702309
 | 331FLR       | BCM5719                 | Quad RJ45 GbE     | ❌     |
 | 366FLR       | intel i350              | Quad RJ45 GbE     | ✔      |
 | CX3 ALOM     | Mellanox ConnectX-3     | Single SFP+ 10GbE | ✔      |
+| 530FLR-SFP+  | BCM57810S               | Dual SFP+ 10GbE   | ❌     |
 | 544FLR-QSFP  | Mellanox ConnectX-3     | Dual QSFP+ 40GbE  | ✔      |
 | 544+FLR-QSFP | Mellanox ConnectX-3 Pro | Dual QSFP+ 40GbE  | ✔      |
+| 560FLR-SFP+  | intel 82599             | Dual SFP+ 10GbE   | ✔      |
 | 561FLR-T     | intel X540              | Dual RJ45 10GbE   | ✔      |
 
-## Worth Trying
-
-| FlexibleLOM  | NIC Model               | Connectors        |
-| ------------ | ----------------------- | ----------------- |
-| 530FLR-SFP+  | BCM57810S               | Dual SFP+ 10GbE   |
-| 560FLR-SFP+  | intel 82599             | Dual SFP+ 10GbE   |
+- **Note:**  
+Some models of 544FLR-QSFP only support 10GbE and QDR. Please check
+ the **Part Number** before buying!  
+544FLR-QSFP 部分型号只支持 10GbE 和 QDR，请在购买前检查**物料号**！
 
 # Directory
 
-- /  
-KiCAD Project  
-KiCAD 工程
-  - /Doc/  
-  Documents  
-  详细说明文档
-  - /Gerber/  
-  The current version of the gerber file  
-  当前版本的 gerber 生产文件
-  - /Model/  
-  Model and baffle designing file  
-  3D 模型和挡板设计文件
-  - /Photo/  
-  Photos  
-  照片
+- /Documents/    
+说明文档
 
-# Repo Timeline
+- /Electricals/  
+PCB design files  
+3D 模型和挡板设计文件
 
-1. 2020/10/05  
-Introduction and tested card list  
-简介和已测网卡列表
-2. 2020/10/06  
-Model and baffle designing file  
-模型和挡板设计
-2. 2020/10/09  
-KiCAD Project  
-KiCAD 工程文件
-4. 2020/10/11  
-Verified gerber project  
-经过验证的 gerber 文件
+- /Firmwares/  
+Firmwares guide  
+固件刷写相关教程
 
-# Photos & 3D Model
+- /Mechanicals/  
+FlexibleLOM Model and PCI Baffle  
+FLR 卡模型及 PCI 挡板设计文件
 
-![FlexibleLOM-Adapter-Card-Top-View.png](./Photo/FlexibleLOM-Adapter-Card-Top-View.png)
-![FlexibleLOM-Adapter-CardTop-View.png](./Photo/FlexibleLOM-Adapter-CardTop-View.png)
-![FlexibleLOM-Card-With-Adapter-Card-in-Machine.png](./Photo/FlexibleLOM-Card-With-Adapter-Card-in-Machine.png)
-![FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png](./Photo/FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png)
+
+# Photos & Renderings
+
+![FlexibleLOM-Adapter-Card-Top-View.png](Documents/Pictures/Photos/FlexibleLOM-Adapter-Card-Top-View.png)
+
+![FlexibleLOM-Adapter-CardTop-View.png](Documents/Pictures/Photos/FlexibleLOM-Adapter-CardTop-View.png)
+
+![FlexibleLOM-Card-With-Adapter-Card-in-Machine.png](Documents/Pictures/Photos/FlexibleLOM-Card-With-Adapter-Card-in-Machine.png)
+
+![FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png](Documents/Pictures/Photos/FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png)
+
+![FlexibleLOM-Card-With-Adapter-Card-Renderings](Documents\Pictures\Renderings\V1.0.png)
 
 # Thanks To
 
