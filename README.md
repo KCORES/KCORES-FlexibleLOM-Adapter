@@ -65,7 +65,7 @@ FLR 卡模型及 PCI 挡板设计文件
 
 ![FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png](Documents/Pictures/Photos/FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png)
 
-![FlexibleLOM-Card-With-Adapter-Card-Renderings](Documents\Pictures\Renderings\V1.0.png)
+![FlexibleLOM-Card-With-Adapter-Card-Renderings](Documents/Pictures/Renderings/V1.0.png)
 
 # Thanks To
 
