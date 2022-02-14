@@ -25,16 +25,24 @@ KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计，可以让普通电脑主�
 - 🟡 Compatible 兼容
 - ❌ Fail 不兼容
 
-| FlexibleLOM  | NIC Model               | Connectors        | [v1.0](https://github.com/KCORES/KCORES-FlexibleLOM-Adapter/releases/tag/v1.0) |   v1.1 |
-| ------------ | ----------------------- | ----------------- | :----: | :----: |
-| 331FLR       | Broadcom BCM5719        | Quad RJ45 GbE     | ❌     | ✔     |
-| 366FLR       | intel i350              | Quad RJ45 GbE     | ✔      | ✔     |
-| CX3 ALOM     | Mellanox ConnectX-3     | Single SFP+ 10GbE | ✔      | ✔     |
-| 530FLR-SFP+  | Broadcom BCM57810S      | Dual SFP+ 10GbE   | ❌     | ✔     |
-| 544FLR-QSFP  | Mellanox ConnectX-3     | Dual QSFP+ 40GbE  | ✔      | ✔     |
-| 544+FLR-QSFP | Mellanox ConnectX-3 Pro | Dual QSFP+ 40GbE  | ✔      | ✔     |
-| 560FLR-SFP+  | intel 82599             | Dual SFP+ 10GbE   | ✔      | ✔     |
-| 561FLR-T     | intel X540              | Dual RJ45 10GbE   | ✔      | ✔     |
+| FlexibleLOM  | NIC Model               | Connectors        | [v1.0](https://github.com/KCORES/KCORES-FlexibleLOM-Adapter/releases/tag/v1.0) |   v1.1 | SKU | SP | AS |
+| ------------ | ----------------------- | ----------------- | :----: | :----: | ---- | ---- | ---- |
+| 331FLR       | Broadcom BCM5719        | Quad RJ45 GbE     | ❌     | ✔     |            |            |            | 
+| 366FLR       | intel i350              | Quad RJ45 GbE     | ✔      | ✔     |            |            |            | 
+| 530FLR-SFP+  | Broadcom BCM57810S      | Dual SFP+ 10GbE   | ❌     | ✔     | 647581-B21 | 649869-001 | 647579-001 | 
+| 544+FLR-SFP  | Mellanox ConnectX-3     | Single SFP+ 10GbE | ✔      | ✔     | 724206-B21 | 723295-001 | 724210-001 | 
+| 544+FLR-SFP  | Mellanox ConnectX-3     | Single SFP+ 10GbE | ✔      | ✔     | 724206-B21 | 731850-001 | 724210-001 | 
+| 544FLR-QSFP  | Mellanox ConnectX-3     | Dual QSFP+ 40GbE  |        |       | 649282-B21 | 656090-001 | 661686-001 |
+| 544FLR-QSFP  | Mellanox ConnectX-3     | Dual QSFP+ 40GbE  | ✔      | ✔     | 649283-B21 | 656091-001 | 661687-001 | 
+| 544+FLR-QSFP | Mellanox ConnectX-3 Pro | Dual QSFP+ 40GbE  | ✔      | ✔     | 764285-B21 | 764737-001 | 764618-001 |
+| 547+FLR-QSFP | Mellanox ConnectX-5     | Dual QSFP+ 40GbE  |        |       | 879482-B21 | 8     -001 | 8     -001 |
+| 553FLR-T     | Broadcom BCM57810S      | Dual RJ45 10GbE   | ✔      | ✔     | 700759-B21 | 701534-001 | 700757-001 |
+| 554FLR-SFP+  | Emulex BE3 684213-B21   | Dual SFP+ 10GbE   |        |       | 629142-B21 | 634026-001 | 629140-001 |
+| 556FLR-T     | Emulex XE-104           | Dual RJ45 10GbE   |        |       | 794525-B21 |            |            |
+| 556FLR-SFP+  | Emulex XE-102 727060B21 | Dual RJ45 10GbE   |        |       | 732456-B21 | 764460-001 | 732454-001 |
+| 560FLR-SFP+  | intel 82599             | Dual SFP+ 10GbE   | ✔      | ✔     |            |            |            | 
+| 561FLR-T     | intel X540              | Dual RJ45 10GbE   | ✔      | ✔     | 700699-B21 | 701525-001 | 700697-001 | 
+| 570FLR-SFP+  | SFC 9020                | Dual      10GbE   | ✔      | ✔     | 717491-B21 | 717710-001 | 717489-001 | 
 
 - **Note:**  
 Some models of 544FLR-QSFP only support 10GbE and QDR. Please check
