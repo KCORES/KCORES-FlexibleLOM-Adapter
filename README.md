@@ -39,10 +39,10 @@ KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计，可以让普通电脑主�
 | 553FLR-T     | Broadcom BCM57810S      | Dual RJ45 10GbE   | ✔      | ✔     | 700759-B21 | 701534-001 | 700757-001 |
 | 554FLR-SFP+  | Emulex BE3 684213-B21   | Dual SFP+ 10GbE   |        |       | 629142-B21 | 634026-001 | 629140-001 |
 | 556FLR-T     | Emulex XE-104           | Dual RJ45 10GbE   |        |       | 794525-B21 |            |            |
-| 556FLR-SFP+  | Emulex XE-102 727060B21 | Dual RJ45 10GbE   |        |       | 732456-B21 | 764460-001 | 732454-001 |
+| 556FLR-SFP+  | Emulex XE-102 727060-B21 | Dual SFP+ 10GbE   |        |       | 732456-B21 | 764460-001 | 732454-001 |
 | 560FLR-SFP+  | intel 82599             | Dual SFP+ 10GbE   | ✔      | ✔     |            |            |            | 
 | 561FLR-T     | intel X540              | Dual RJ45 10GbE   | ✔      | ✔     | 700699-B21 | 701525-001 | 700697-001 |
-| 562FLT-SFP+  | intel X710              | Dual SFP+ 10GbE   |        |       | 727054-B21 | 7     -001 | 7     -001 |
+| 562FLR-SFP+  | intel X710              | Dual SFP+ 10GbE   |        |       | 727054-B21 | 7     -001 | 7     -001 |
 | 570FLR-SFP+  | SFC 9020                | Dual      10GbE   | ✔      | ✔     | 717491-B21 | 717710-001 | 717489-001 | 
 
 - **Note:**  
