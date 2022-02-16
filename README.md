@@ -30,6 +30,7 @@ KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计，可以让普通电脑主�
 | 331FLR       | Broadcom BCM5719        | Quad RJ45 GbE     | ❌     | ✔     |            |            |            | 
 | 366FLR       | intel i350              | Quad RJ45 GbE     | ✔      | ✔     |            |            |            | 
 | 530FLR-SFP+  | Broadcom BCM57810S      | Dual SFP+ 10GbE   | ❌     | ✔     | 647581-B21 | 649869-001 | 647579-001 | 
+| ConnectX3ALOM| Mellanox ConnectX-3     | Single SFP+ 10GbE |        | ✔     | 682148-B21 | 682625-001 | 682150-001 | 
 | 544FLR-QSFP  | Mellanox ConnectX-3     | Dual QSFP+ 40GbE  |        |       | 649282-B21 | 656090-001 | 661686-001 |
 | 544FLR-QSFP  | Mellanox ConnectX-3     | Dual QSFP+ 40GbE  | ✔      | ✔     | 649283-B21 | 656091-001 | 661687-001 |
 | 544+FLR-SFP+ | Mellanox ConnectX-3 Pro?| Single SFP+ 10GbE | ✔      | ✔     | 724206-B21 | 731850-001 | 724210-001 | 
